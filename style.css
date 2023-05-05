@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif ;
+}
+
+
+.webgl{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+nav{
+  color: aliceblue;
+  z-index: 2;
+  position: relative;
+  padding: 4rem 8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav > h1{
+  color: blueviolet;
+}
+
+ul{
+  display: flex;
+
+}
+
+li{
+  margin-left: 4rem;
+  list-style: none;
+}
+
+.title{
+  color: white;
+  z-index: 2;
+  position: absolute;
+  font-size: 2rem;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -25%);
+}
